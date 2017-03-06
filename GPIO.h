@@ -1,6 +1,6 @@
 typedef union {
 
-    struct {
+    struct  __attribute__((__packed__)) {
         vu32 b0 : 1;
         vu32 b1 : 1;
         vu32 b2 : 1;
